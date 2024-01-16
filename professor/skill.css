@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Nunito:wght@300;500;600&display=swap');
+
+
+.mh-service h3{
+    font-family: 'poppins' , sans-serif;
+    margin-bottom: 18px;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 600;
+    color: right;
+}
+
+
+.mh-skills .mhprofessional-skill{
+    padding-right: 60px;
+    color: purple;
+
+}
+
+.mh-skills .mhprofessional-skill h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'poppins' , sans-serif;
+}
+
+.mhprofessional-skill{
+    padding-left: 20%;
+
+}
+
+.mhprofessional-skill h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'poppins' , sans-serif;
+
+}
+
+
+.mh-professional-progress li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+ .mh-progress-mh-progress-circle{
+    margin-bottom: 10px;
+    font: 900;
+    color: purple;
+    
+}

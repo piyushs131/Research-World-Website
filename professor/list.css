@@ -1,0 +1,300 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+.heading{
+    text-align: left;
+    color:green;
+
+    margin: 35px;
+    text-decoration: double;
+    padding: 5px;
+
+
+}
+
+.heading h2{
+    font-size: 2rem;
+    font-weight: 750;
+    display: flex;
+    flex-direction: column;
+    text-decoration: solid underline;
+    
+
+} 
+
+.heading h4{
+    font-size: 1.2rem;
+    font-weight: 450;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h4:hover{
+    color: purple;
+    transition: all ease 0.4s;
+
+}
+
+.imghead{
+    justify-content: right;
+    margin: 20px;
+    padding-right: 5px;
+    margin-right: 10px;
+    line-height: 50px;
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    
+    position:absolute;
+    top:-5px;
+    left:1270px
+}
+
+
+
+
+.f{
+    display:flex;
+    gap:100px
+}
+
+.head {
+    height:100px;
+    width:400px;
+    /* border:2px solid black; */
+    margin-top:80px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+.para{
+    height:100px;
+    width:1000px;
+    border:2px solid black;
+    margin-top:100px;
+    background-image: linear-gradient(to right,orange ,white);
+    font-size: 20px;
+    padding-bottom: 26px;
+}
+.para b{
+    font-size: 50px;
+}
+.faf{
+    margin-left:70px;
+    padding: 15px;
+}
+.faf h6{
+    height:20px;
+    width:230px;
+     border:2px solid black;
+     margin-top: 50px;
+     font-size: 20px;
+     text-align:center;
+     padding-bottom: 50px;
+     margin-left: 10px;
+     border-radius:20px;
+    margin-bottom: 10px;
+}
+
+
+
+.faf b{
+    font-size: 50px;
+}
+
+
+.line{
+    margin-left:100px;
+    font-size: 20px;
+}
+
+.sp{
+  margin-bottom: 15px;
+    padding: 15px;
+    margin-left: 85px;
+    color: blue;
+    font-size:18px;
+    margin-top: 50px;
+    
+    
+}
+
+.ram {
+   height:1013px;
+   width:1300px;
+   display:flex;
+   flex-direction: column;
+   border: 2px solid black;
+   margin-top:110px;
+   margin-left:auto;
+   margin-right:auto;
+  justify-content:space-around;
+margin-bottom: 20px;
+gap:10px;
+
+
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    
+    height: 220px;
+margin-bottom: 5px;
+padding-bottom: 0px;
+box-shadow: 5px 5px 5px gray;
+background-image: linear-gradient(to right, lightgreen,  rgb(202, 233, 91));
+
+
+
+}
+
+.cont h3{
+    font-size: 1.5rem;
+    font-weight: 380;
+    margin-left:80px;
+    margin-top: 12px;
+
+}
+
+.cont h4{
+    font-size: 1.3rem;
+    font-weight: 340;
+    margin-left:80px;
+    margin-top: 4px;
+
+}
+
+
+ul{
+    list-style-type: circle;
+}
+
+
+
+
+.liu{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-left: 80px;
+    margin-top: 4px;
+
+
+    
+}
+
+.uli{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+.rmr{
+    font-size: 1.3rem;
+    font-weight: 440;
+    margin-left:370px;
+    margin-top: 4px;
+    /* text-align: right; */
+
+
+}
+
+.rmr :hover{
+    transition: all ease 0.4s;
+    cursor: pointer;
+    color: red;
+
+}
+
+
+
+
+  
+.contact{
+    height:400px;
+    border:2px solid gray;
+    margin-top:100px;
+    background-color:rgb(183, 180, 180);
+}
+.contact{
+    display: flex;
+    gap:20px
+}
+
+.df{
+    height:300px;
+    width:300px;
+    /* border:2px solid black; */
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.df h5{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.df ul{
+    padding-left: 90px;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+
+.df h6{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.df p{
+    padding-left: 9px;
+}
+
+.df li{
+ text-decoration: double;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.df li:hover {
+    color: green;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+
+
+
+.ram img{
+    height:85%;
+    width:200px;
+}

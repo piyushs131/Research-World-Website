@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+.heading{
+    text-align: left;
+    color:green;
+
+    margin: 20px;
+    text-decoration: double;
+    padding: 5px;
+
+
+}
+
+.swas{
+    margin-left: 30px;
+}
+
+.heading h2{
+    font-size: 2rem;
+    font-weight: 750;
+    display: flex;
+    flex-direction: column;
+    text-decoration: solid underline;
+    
+
+} 
+
+.heading h4{
+    font-size: 1.2rem;
+    font-weight: 450;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h4:hover{
+    color: purple;
+    transition: all ease 0.4s;
+
+}
+
+.imghead{
+    justify-content: right;
+    margin: 20px;
+    padding-right: 5px;
+    margin-right: 10px;
+    line-height: 50px;
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    
+    position:absolute;
+    top:-5px;
+    left:1270px
+}
+
+
+.dev img{
+    height:450px;
+    width:1580px;
+    margin-top: 13px;
+}
+
+
+
+.ved{
+    font-size: 35px;
+    row-gap: 5px;
+}
+
+.ff{
+text-align: center;
+}
+
+.gf{
+    height:250px;
+    width:1580px;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.gf img{
+    align-items: center;
+    margin-right: 255px;
+    text-align: center;
+    justify-items: center;
+    
+   
+    border-radius: 50%;
+    object-fit: none;
+    object-position: right;}
+
+.gf p{
+    
+    font-size: 1.1rem;
+   font-weight: 450;
+}
+
+.mob{
+    font-size: 1.1rem;
+    font-weight: 450;
+    margin-left: 30px;
+}
+
+.mob h1{
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    text-transform: capitalize;
+    margin: 10px;
+
+}
+
+.mob h1:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.mob ul{
+    margin-left: 25px;
+}
+.mob h3{
+    font-size: 1.3rem;
+    font-weight: 350;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: purple;
+   
+
+}
+
+.mob li{
+    font-size: 1.1rem;
+    
+    
+}
+
+.mob li:hover{
+    transition: all ease .4s;
+    color: green;
+    cursor: pointer;
+
+
+}
+
+.pho{
+    display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+     margin-top:20px;
+     margin-left:15px;
+     margin-right:25px;
+  
+}
+.box1{
+    height: 400px;
+    width:350px;
+    border:2px solid green;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightgreen;
+
+}
+
+
+.jam h4{
+    text-align: center;
+    font-size: 40px;
+    margin-top:20px;
+}
+.jam p{
+    text-align: center;
+    
+}
+
+.ol{
+    height:50px
+}
+
+.pop{
+    margin-top: 30px;
+  display:flex;
+  gap:20px;
+ justify-content: center;
+ margin-bottom:30px;
+ 
+}
+
+.box1 img{
+    height:200px;
+    border-radius: 5px;
+
+}
+
+
+.bcn h5{
+    font-size: 1.5rem;
+    color: red;
+    margin: 5px;
+
+}
+
+.bcn p{
+    margin: 5px;
+    font-size: 1.1rem;
+    font-weight: 450;
+ 
+}
+
+
+.bcn span{
+    font-size: 1rem;
+    color: red;
+    margin: 5px;
+    
+}
+
+.bcn h4{
+
+    font-size: 1.2rem;
+    margin: 6px;
+    color: green;
+
+}
+.bcn h4:hover{
+    transition: all ease .4s;
+    color: green;
+    cursor: pointer;
+
+}
+
+.jam h4{
+    color: red;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    text-transform: capitalize;
+    margin: 10px;
+
+}
+
+.jam h4:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.jam p{
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+
+.box1 img:hover{
+    transition: all;
+    transition-duration: 2s;
+   transform: scale(1.05);
+   box-shadow: 4px 4px 5px;
+ 
+}
+
+.box2{
+    height: 400px;
+    width:350px;
+    border:1.5px solid green;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+
+}
+.box2 img{
+
+ height:100%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 4px rgb(131, 219, 131);
+}
+
+.contact{
+    height:400px;
+    border:2px solid black;
+    margin-top:100px;
+    background-color:grey;
+}
+.contact{
+    display: flex;
+    gap:20px
+}
+
+.df{
+    height:300px;
+    width:300px;
+    /* border:2px solid black; */
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.df h5{
+    text-align: center;
+    font-size: 20px;
+}
+.df ul{
+    padding-left: 90px;
+    gap: 5px;
+}
+
+.df h6{
+    text-align: center;
+    font-size: 20px;
+}
+
+.df p{
+    padding-left: 9px;
+}
+
+.df li{
+ text-decoration: double;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.df li:hover {
+    color: green;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
